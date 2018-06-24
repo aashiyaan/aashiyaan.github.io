@@ -31,6 +31,73 @@ header .background-shadow {
   margin: auto;
 }
 
+main.splash {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('./images/splash.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+main.splash .lang-choice a {
+  background-color: #fdfae5;
+  height: 12rem;
+  width: 12rem;
+  max-width: 50%;
+  color: #144A5B;
+}
+
+main.splash .lang-choice span {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main.splash ul {
+  list-style-type: none;
+}
+
+main.splash .lang-left a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 100%;
+}
+
+main.splash .lang-left span {
+  left: 1rem;
+}
+
+main.splash .lang-right a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 100%;
+}
+
+main.splash .lang-right span {
+  right: 1rem;
+}
+
+main.splash .logo {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  width: 50%;
+  transform: translateY(-50%);
+}
+
+main h1.hidden {
+  position: fixed;
+  top: -100%;
+  opacity: 0;
+}
+
 main section:first-child {
   margin-top: 0.5em;
 }
