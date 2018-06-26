@@ -43,7 +43,7 @@ main.splash {
 }
 
 main.splash .lang-choice a {
-  background-color: #fdfae5;
+  background-color: #fcf4c5;
   height: 12rem;
   width: 12rem;
   max-width: 50%;
@@ -126,6 +126,10 @@ main p {
   margin: 1em 0;
 }
 
+main a {
+  color: #fdfae5;
+}
+
 main section {
   margin: 2rem 0;
   line-height: 1.8rem;
@@ -174,6 +178,7 @@ section.highlight button.action {
 }
 
 footer {
+  padding-top: 2rem;
   position: relative;
 }
 
@@ -201,7 +206,7 @@ footer .acknowledgements .column-4:not(:last-child) {
 
 footer h2 {
   margin-top: 0;
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 
 footer h3 {
@@ -215,6 +220,9 @@ footer p {
 }
 footer p.subtle {
   font-size: 0.5em;
+}
+footer p.spaced {
+  margin-top: 0.5em;
 }
 
 footer section {
