@@ -217,26 +217,19 @@ section.highlight button.action {
   transform-style: preserve-3d;
 }
 
-.image-wrapper .card .left-name,
-.image-wrapper .card .right-name {
+.image-wrapper .card .name {
   position: absolute;
-
+  text-align: center;
+  width: 100%;
   background-color: blue;
   color: white;
-  padding: 0.2rem 0.6rem;
+  padding: 0.3rem 0.6rem;
   box-sizing: border-box;
   background-color: #fdfae5dd;
   color: #144A5B;
-}
-
-.image-wrapper .card .left-name {
-  bottom: 0.5rem;
   left: 0;
-}
-
-.image-wrapper .card .right-name {
   bottom: 0.5rem;
-  right: 0;
+  line-height: 1.2rem;
 }
 
 footer {
