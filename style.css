@@ -143,9 +143,9 @@ section.highlight {
   color: #144A5B;
 }
 
-section.highlight button.action {
+section.highlight a.action {
   margin: auto;
-  display: block;
+  display: inline-block;
   padding: 1rem;
   background-color: #144A5B;
   border: none;
